@@ -1,0 +1,13 @@
+<section class='title'>
+    <span><b>Title: </b></span>
+    <span><%= @book.title %></span>
+</section>
+<p></p>
+<section class='body'>
+    <span><b>Body: </b></span>
+    <span><%= @book.body %></span>
+</section>
+
+<%= link_to 'edit', edit_book_path(@book) %>
+<%= link_to 'back', books_path %>
+
